@@ -24,6 +24,9 @@
                                     <constraint firstAttribute="height" constant="44" id="s4i-M2-jaR"/>
                                 </constraints>
                                 <state key="normal" title="Tap"/>
+                                <connections>
+                                    <action selector="tapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="WTx-sM-QRR"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -32,6 +35,9 @@
                             <constraint firstItem="qks-jE-Ged" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="UCX-xl-FCV"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="tap" destination="qks-jE-Ged" id="3Uu-42-28B"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
